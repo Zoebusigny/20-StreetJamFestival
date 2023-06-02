@@ -1,7 +1,8 @@
 body {
   max-width: 320px;
   margin: auto;
-  background: url(../img/background.jpg);
+  background: blue;
+  b
 }
 
 img {
@@ -21,12 +22,13 @@ nav {
 .Text {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  margin: 10px 5px;
+  margin: 40px 5px;
 }
 
-.Text-Center {
+.Text-center {
   text-align: center;
   margin-top: 30px;
+  font-weight: 300;
 }
 
 p {
@@ -59,6 +61,11 @@ p {
   85%, 100%{
    transform: translateX(-820px)
   }
+}
+
 .food{
   margin-top: 60px;
+  border-radius:0px; 
+  background: white;
+  padding-bottom: 15px;
 }
