@@ -8,3 +8,27 @@ img {
   display: block;
   max-width: 100%;
 }
+.container-carousel{
+  overflow: hidden;
+}
+
+.carousel{
+  width: 375px;
+  margin: auto;
+  display: flex; 
+  flex-flow: row ;
+  position: relative;
+  animation: carousel linear 15s infinite;
+}
+
+
+@keyframes carousel {
+  0%, 40% {
+    transform: translateX(-50px)
+  }
+  45%, 80% {
+    transform: translateX(-425px)
+  }
+  85%, 100%{
+   transform: translateX(-820px)
+  }
