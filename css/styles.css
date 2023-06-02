@@ -1,13 +1,40 @@
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
+  background: url(../img/background.jpg);
 }
 
 img {
   display: block;
   max-width: 100%;
+
 }
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.Text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  margin: 10px 5px;
+}
+
+.Text-Center {
+  text-align: center;
+  margin-top: 30px;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+}
+
+
 .container-carousel{
   overflow: hidden;
 }
@@ -32,3 +59,4 @@ img {
   85%, 100%{
    transform: translateX(-820px)
   }
+}
