@@ -8,33 +8,21 @@ body {
   background: url(../img/Plan\ de\ travail\ 1-100.jpg);
   background-size: 315px;
   background-position: center;
-  
+}
 
+@font-face {
+  font-family: "Blank River";
+  src: url(dafont.com/blank-river.font);
 }
 
 img {
   display: block;
   max-width: 100%;
-
 }
 
-header h1 {
-  text-align: center;
-  color: white;
-  background-color: black;
-  padding: 15px;
-  margin: 0;
-}
 
-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-  margin: 5px;
-  background: url(../img/Fichier\ 9-100.jpg);
-  margin: auto;
-}
+
+
 
 .bulle-grise {
   border-radius: 0;
@@ -43,11 +31,12 @@ nav {
   margin: 0;
 }
 
-.mur{
+.mur {
   background: url(../img/Fichier\ 10-100.jpg);
+  padding-top: 20px;
 }
 
-.bulle-claire{
+.bulle-claire {
   background: url(../img/Fichier\ 6-100.jpg);
   padding-top: 20px;
 }
@@ -61,10 +50,11 @@ nav {
   background: url(../img/Fond/marbre.jpg);
   padding-top: 20px;
 }
+
 .Text {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  margin:20px 10px 20px 10px;
+  margin: 20px 10px 20px 10px;
 }
 
 .Text-center {
@@ -74,14 +64,75 @@ nav {
   margin-bottom: 30px;
 }
 
-.Text-color{
+header h1 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Blank River", Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  font-weight: 300 ;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  background: url(../img/Fichier\ 9-100.jpg);
+  padding-top: 20px;
+  margin: auto;
+}
+
+a {
+  font-family: "Blank River", Arial, Helvetica, sans-serif;
+  color: #3e78bc;
+  font-size: 25px;
+  padding: 5px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+h2 {
+  font-family:"Blank River" ,Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 300 ;
+  font-size: 40px;
+  color: white;
+  margin-top: 0;
+
+}
+
+hr {
+  margin: 0 110px;
+  margin-bottom: 20px;
+
+}
+
+h3 {
+  color: #3e78bc;
+  font-family:"Blank River" ,Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 300 ;
+  margin-left: 35px;
+  margin: 10px;
+
+}
+
+.Text-color {
   color: white;
 }
 
 p {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
-  margin:20px 10px 20px 10px;
+  margin: 20px 10px 20px 10px;
 }
 
 .container-carousel {
@@ -96,7 +147,6 @@ p {
   position: relative;
   animation: carousel linear 7s infinite;
 }
-
 
 @keyframes carousel {
 
@@ -127,10 +177,20 @@ footer {
   border-radius: 0;
   background: #646463;
   padding: 5px 40px;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
-footer h2,
-h3 {
+.reseaux {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.element {
+  width: 40px;
+}
+
+footer h2 {
   text-align: center;
 }
