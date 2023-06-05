@@ -5,7 +5,7 @@ html {
 body {
   max-width: 320px;
   margin: auto;
-  background: url(../img/Plan\ de\ travail\ 1-100.jpg);
+  background: url(../img/background.jpg);
   background-size: 315px;
   background-position: center;
 }
@@ -28,23 +28,23 @@ img {
 }
 
 .mur {
-  background: url(../img/Fichier\ 10-100.jpg);
+  background: url(../img/texture-mur.jpg);
   padding-top: 20px;
 }
 
 .bulle-claire {
-  background: url(../img/Fichier\ 6-100.jpg);
+  background: url(../img/texture-claire.jpg);
   padding-top: 20px;
 }
 
 .sol {
-  background: url(../img/Fichier\ 9-100.jpg);
+  background: url(../img/texture-sol.jpg);
   padding-top: 20px;
 }
 
 .marbre {
   background: url(../img/Fond/marbre.jpg);
-  padding-top: 20px;
+  padding-top: 60px;
 }
 
 .Text {
@@ -55,10 +55,9 @@ img {
 
 .Text-center {
   text-align: center;
-  margin-top: 30px;
+  margin: 10px 10px;
   font-weight: 300;
-  margin-bottom: 20px;
-
+  
 }
 
 header h1 {
@@ -81,7 +80,7 @@ nav {
   align-items: center;
   padding: 10px;
   margin: 5px;
-  background: url(../img/Fichier\ 9-100.jpg);
+  background: url(../img/texture-sol.jpg);
   padding-top: 20px;
   margin: auto;
 }
@@ -116,8 +115,7 @@ h3 {
   font-family: "Blank River", Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 300;
-  margin: 10px 10px;
-
+  margin: 10px 10px 30px 10px;
 }
 
 .Text-color {
@@ -162,27 +160,26 @@ p {
 }
 
 .food {
-  margin-top: 60px;
+  margin-top: 80px;
+  border-radius:0px; 
   border-radius: 0px;
   background: white;
-  padding-bottom: 5px;
-  margin: 40px 0 ;
+  
 }
-
 
 footer {
   border-radius: 0;
-  background: #646463;
-  padding: 20px 10px;
-  margin-top: 0px;
+  background: #848484;
+  padding: 30px 10px;
+  margin-top: 40px;
 }
-
 
 .reseaux {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+  margin: 5px 60px;
 }
 
 .element {
@@ -196,8 +193,8 @@ footer h3 {
 
 footer h2 {
   font-size: 39px;
-}
 
+}
 
 footer p {
   color: white;
