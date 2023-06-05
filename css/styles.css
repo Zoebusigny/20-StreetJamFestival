@@ -1,5 +1,5 @@
 html {
-  background-color: aqua;
+  background-color: rgb(216, 216, 216);
 }
 
 body {
@@ -20,13 +20,9 @@ img {
   max-width: 100%;
 }
 
-
-
-
-
 .bulle-grise {
   border-radius: 0;
-  background-color: #646463;
+  background-color: #848484;
   padding: 10px;
   margin: 0;
 }
@@ -54,14 +50,15 @@ img {
 .Text {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  margin: 20px 10px 20px 10px;
+  margin: 20px 20px 20px 20px;
 }
 
 .Text-center {
   text-align: center;
   margin-top: 30px;
   font-weight: 300;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+
 }
 
 header h1 {
@@ -75,7 +72,7 @@ header h1 {
 h1 {
   font-family: "Blank River", Arial, Helvetica, sans-serif;
   font-size: 45px;
-  font-weight: 300 ;
+  font-weight: 300;
 }
 
 nav {
@@ -96,32 +93,30 @@ a {
   padding: 5px;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
 }
+
 h2 {
-  font-family:"Blank River" ,Arial, Helvetica, sans-serif;
+  font-family: "Blank River", Arial, Helvetica, sans-serif;
   text-align: center;
-  font-weight: 300 ;
+  font-weight: 300;
   font-size: 40px;
   color: white;
-  margin-top: 0;
-
+  margin: 0;
 }
 
 hr {
   margin: 0 110px;
   margin-bottom: 20px;
-
 }
 
 h3 {
   color: #3e78bc;
-  font-family:"Blank River" ,Arial, Helvetica, sans-serif;
+  font-family: "Blank River", Arial, Helvetica, sans-serif;
   font-size: 30px;
-  font-weight: 300 ;
-  margin-left: 35px;
-  margin: 10px;
+  font-weight: 300;
+  margin: 10px 10px;
 
 }
 
@@ -132,7 +127,7 @@ h3 {
 p {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
-  margin: 20px 10px 20px 10px;
+  margin: 20px 20px 20px 20px;
 }
 
 .container-carousel {
@@ -170,27 +165,40 @@ p {
   margin-top: 60px;
   border-radius: 0px;
   background: white;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
+  margin: 40px 0 ;
 }
+
 
 footer {
   border-radius: 0;
   background: #646463;
-  padding: 5px 40px;
-  margin-top: 40px;
+  padding: 20px 10px;
+  margin-top: 0px;
 }
+
 
 .reseaux {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .element {
   width: 40px;
 }
 
-footer h2 {
+footer h3 {
   text-align: center;
+  color: white;
+}
+
+footer h2 {
+  font-size: 39px;
+}
+
+
+footer p {
+  color: white;
 }
