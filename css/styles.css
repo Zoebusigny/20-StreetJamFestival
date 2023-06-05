@@ -11,8 +11,8 @@ body {
 }
 
 @font-face {
-  font-family: "Blank River";
-  src: url(dafont.com/blank-river.font);
+  font-family: "blank river";
+  src: url(https://dl.dafont.com/dl/?f=blank_river);
 }
 
 img {
@@ -28,29 +28,30 @@ img {
 }
 
 .mur {
-  background: url(../img/texture-mur.jpg);
+  background: url(../img/Fond/texture-mur.jpg);
   padding-top: 20px;
 }
 
 .bulle-claire {
-  background: url(../img/texture-claire.jpg);
+  background: url(../img/Fond/texture-claire.jpg);
   padding-top: 20px;
+  padding-bottom: 0;
 }
 
 .sol {
-  background: url(../img/texture-sol.jpg);
+  background: url(../img/Fond/texture-mur.jpg);
   padding-top: 20px;
 }
 
 .marbre {
   background: url(../img/Fond/marbre.jpg);
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .Text {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  margin: 20px 20px 20px 20px;
+  margin: 5px 20px 5px 20px;
 }
 
 .Text-center {
@@ -69,7 +70,7 @@ header h1 {
 }
 
 h1 {
-  font-family: "Blank River", Arial, Helvetica, sans-serif;
+  font-family: "Blank er", Arial, Helvetica, sans-serif;
   font-size: 45px;
   font-weight: 300;
 }
@@ -115,7 +116,7 @@ h3 {
   font-family: "Blank River", Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 300;
-  margin: 10px 10px 30px 10px;
+  margin: 10px 10px 10px 10px;
 }
 
 .Text-color {
@@ -125,7 +126,7 @@ h3 {
 p {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 20px 30px 20px;
 }
 
 .container-carousel {
