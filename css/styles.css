@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(216, 216, 216);
+  background-color: rgb(178, 196, 205);
 }
 
 body {
@@ -28,7 +28,7 @@ h1 {
   font-weight: 300;
 }
 
-nav{
+nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,15 +37,15 @@ nav{
   padding: 10px;
 }
 
- a{
+a {
   padding-bottom: 10px;
   font-family: "Blank River", Arial, Helvetica, sans-serif;
   color: #3e78bc;
   font-size: 25px;
   padding: 5px;
- }
+}
 
- a:hover {
+a:hover {
   text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ h3 {
   font-family: "Blank River", Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 300;
-  margin: 20px 10px 10px 10px;
+  margin: 20px 10px 20px 10px;
 }
 
 .Text-color {
@@ -142,13 +142,12 @@ h3 {
 .marbre {
   background: url(../img/Fond/texture-marbre.jpg);
   padding-top: 20px;
-  padding-bottom: 60px ;
-  
+  padding-bottom: 60px;
 }
 
 .food {
   margin-top: 60px;
-  border-radius:0px; 
+  border-radius: 0px;
   border-radius: 0px;
   background: white;
   padding-bottom: 10px;
@@ -159,7 +158,6 @@ h3 {
   margin-top: 30px;
   margin-bottom: 20px;
   font-weight: 300;
-  
 }
 
 footer {
@@ -193,8 +191,7 @@ footer h3 {
 footer p {
   color: white;
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300; 
-  margin: 0 10px 10px 10px ;
-  
+  font-weight: 300;
+  margin: 0 10px 10px 10px;
   text-align: center;
 }
