@@ -9,6 +9,11 @@ body {
   background-position: center;
 }
 
+@font-face {
+  font-family: "Blank River";
+  src: url(../fonts/Blank\ River\ 2.ttf); 
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -23,7 +28,7 @@ header h1 {
 }
 
 h1 {
-  font-family: "Blank river", Arial, Helvetica, sans-serif;
+  font-family: "Blank River", Arial, Helvetica, sans-serif;
   font-size: 45px;
   font-weight: 300;
 }
