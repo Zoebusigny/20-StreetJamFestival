@@ -5,60 +5,13 @@ html {
 body {
   max-width: 320px;
   margin: auto;
-  background: url(../img/background.jpg);
   background-size: 315px;
   background-position: center;
-}
-
-@font-face {
-  font-family: "blank river";
-  src: url(https://dl.dafont.com/dl/?f=blank_river);
 }
 
 img {
   display: block;
   max-width: 100%;
-}
-
-.bulle-grise {
-  border-radius: 0;
-  background-color: #848484;
-  padding: 10px;
-  margin: 0;
-}
-
-.mur {
-  background: url(../img/Fond/texture-mur.jpg);
-  padding-top: 20px;
-}
-
-.bulle-claire {
-  background: url(../img/Fond/texture-claire.jpg);
-  padding-top: 20px;
-  padding-bottom: 0;
-}
-
-.sol {
-  background: url(../img/Fond/texture-mur.jpg);
-  padding-top: 20px;
-}
-
-.marbre {
-  background: url(../img/Fond/marbre.jpg);
-  padding-top: 30px;
-}
-
-.Text {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
-  margin: 5px 20px 5px 20px;
-}
-
-.Text-center {
-  text-align: center;
-  margin: 10px 10px;
-  font-weight: 300;
-  
 }
 
 header h1 {
@@ -70,31 +23,43 @@ header h1 {
 }
 
 h1 {
-  font-family: "Blank er", Arial, Helvetica, sans-serif;
+  font-family: "Blank river", Arial, Helvetica, sans-serif;
   font-size: 45px;
   font-weight: 300;
 }
 
-nav {
+nav{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: url(../img/Fond/texture-sol.jpg);
+  background-size: cover;
   padding: 10px;
-  margin: 5px;
-  background: url(../img/texture-sol.jpg);
-  padding-top: 20px;
-  margin: auto;
 }
 
-a {
+ a{
+  padding-bottom: 10px;
   font-family: "Blank River", Arial, Helvetica, sans-serif;
   color: #3e78bc;
   font-size: 25px;
   padding: 5px;
+ }
+
+ a:hover {
+  text-decoration: none;
 }
 
-a:hover {
-  text-decoration: none;
+.bulle-grise {
+  border-radius: 0;
+  background-color: #848484;
+  padding: 10px;
+  margin: 0;
+}
+
+.text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  margin: 30px 20px 20px 20px;
 }
 
 h2 {
@@ -111,22 +76,10 @@ hr {
   margin-bottom: 20px;
 }
 
-h3 {
-  color: #3e78bc;
-  font-family: "Blank River", Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  font-weight: 300;
-  margin: 10px 10px 10px 10px;
-}
-
-.Text-color {
-  color: white;
-}
-
-p {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
-  margin: 20px 20px 30px 20px;
+.mur {
+  background: url(../img/Fond/texture-mur.jpg);
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .container-carousel {
@@ -160,19 +113,59 @@ p {
   }
 }
 
+h3 {
+  color: #3e78bc;
+  font-family: "Blank River", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 20px 10px 10px 10px;
+}
+
+.Text-color {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.bulle-claire {
+  background: url(../img/Fond/texture-claire.jpg);
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+.sol {
+  background: url(../img/Fond/texture-sol.jpg);
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.marbre {
+  background: url(../img/Fond/texture-marbre.jpg);
+  padding-top: 20px;
+  padding-bottom: 60px ;
+  
+}
+
 .food {
-  margin-top: 80px;
+  margin-top: 60px;
   border-radius:0px; 
   border-radius: 0px;
   background: white;
+  padding-bottom: 10px;
+}
+
+.Text-center {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 300;
   
 }
 
 footer {
   border-radius: 0;
   background: #848484;
-  padding: 30px 10px;
-  margin-top: 40px;
+  padding: 20px 10px;
 }
 
 .reseaux {
@@ -185,6 +178,11 @@ footer {
 
 .element {
   width: 40px;
+  padding-top: 10px;
+}
+
+footer h2 {
+  font-size: 39px;
 }
 
 footer h3 {
@@ -192,11 +190,11 @@ footer h3 {
   color: white;
 }
 
-footer h2 {
-  font-size: 39px;
-
-}
-
 footer p {
   color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300; 
+  margin: 0 10px 10px 10px ;
+  
+  text-align: center;
 }
