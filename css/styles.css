@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  max-width: 320px;
+  max-width: 375px;
   margin: auto;
   background-size: 315px;
   background-position: center;
@@ -136,7 +136,7 @@ h3 {
   margin-bottom: 0px;
 }
 
-.annonce{
+.annonce {
   font-weight: 400;
 }
 
@@ -147,7 +147,7 @@ h3 {
   margin-bottom: 0;
 }
 
-.invite-honneur{
+.invite-honneur {
   background: url(../img/Fond/texture-claire.jpg);
   padding-bottom: 0px;
   padding-top: 5px;
@@ -197,7 +197,6 @@ footer {
 
 .element {
   width: 40px;
-
 }
 
 footer h2 {
