@@ -61,8 +61,6 @@ a:hover {
   margin: 0;
 }
 
-
-
 .text {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
@@ -99,24 +97,29 @@ hr {
   display: flex;
   flex-flow: row;
   position: relative;
-  animation: carousel linear 7s infinite;
+  animation: carousel linear 10s infinite;
 }
 
 @keyframes carousel {
 
   0%,
-  40% {
-    transform: translateX(-50px)
+  25% {
+    transform: translateX(0%)
   }
 
-  45%,
-  80% {
-    transform: translateX(-425px)
+  30%,
+  55% {
+    transform: translateX(-100%)
   }
 
-  85%,
+  60%,
+  85% {
+    transform: translateX(-200%)
+  }
+
+  90%,
   100% {
-    transform: translateX(-820px)
+    transform: translateX(-0%)
   }
 }
 
@@ -139,7 +142,14 @@ h3 {
 
 .bulle-claire {
   background: url(../img/Fond/texture-claire.jpg);
-  padding-bottom: 25px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+.invite-honneur{
+  background: url(../img/Fond/texture-claire.jpg);
+  padding-bottom: 0px;
   padding-top: 5px;
   margin-bottom: 0;
 }
@@ -174,7 +184,7 @@ h3 {
 footer {
   border-radius: 0;
   background: #848484;
-  padding: 20px 10px;
+  padding: 20px 10px 5px 10px;
 }
 
 .reseaux {
@@ -203,6 +213,7 @@ footer p {
   color: white;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  margin: 10px 10px 10px 10px;
+  font-size: 15px;
+  margin: 40px 20px 0px 20px;
   text-align: center;
 }
